@@ -21,7 +21,16 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "289692594";
+    const serviceWorkerVersion = "2381486506";
+  </script>
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js';
+    import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js';
+
+
+    // Inicializar Firebase
+    const app = initializeApp(firebaseConfig);
+    const firestore = getFirestore(app);
   </script>
 
   <!-- This script adds the flutter initialization JS code -->
