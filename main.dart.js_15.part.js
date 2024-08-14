@@ -5,6 +5,6 @@ $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
 B=c[27]
 var z=a.updateTypes([])
-A.rc(b.typeUniverse,JSON.parse('{"Rz":{"W":["zT"]}}'));(function constants(){B.I2=new A.a4(15,10,15,10)})()};
+A.rc(b.typeUniverse,JSON.parse('{"RC":{"W":["zT"]}}'));(function constants(){B.I7=new A.a4(15,10,15,10)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"ezgCeInllYRD/JLmIDAkwiwBWH8=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"tdOeIuvb4U7WcQpPIu6eaiKS+HQ=");
