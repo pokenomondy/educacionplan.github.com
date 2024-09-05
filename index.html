@@ -6,52 +6,46 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Dufy asesorías.">
+
   <meta name="google-signin-client_id" content="350250942752-4i0b7d675tgn61rqij670s91ub8958le.apps.googleusercontent.com"/>
   <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="dashboard_admin_flutter">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>EduSmart - Sistema educativo</title>
   <link rel="manifest" href="manifest.json">
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4041961122";
-  </script>
-
   <script type="module">
-    // Importa las funciones que necesitas de los SDK que necesitas
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
-        import { getMessaging } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging.js";
+    import { getMessaging } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-messaging.js";
   </script >
-
+  <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
 
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script src="main.dart.js" type="application/javascript"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-       // Service workers are supported. Use them.
-       window.addEventListener('load', function () {
-         // ADD THIS LINE
-         navigator.serviceWorker.register('/firebase-messaging-sw.js');
+<script src="flutter_bootstrap.js" async></script>
+<script>
+  window.addEventListener('load', function(ev) {
+    _flutter.loader.load({
+      serviceWorker: {
+        serviceWorkerVersion: serviceWorkerVersion,
+      },
+      onEntrypointLoaded: function(engineInitializer) {
+        engineInitializer.initializeEngine().then(function(appRunner) {
+          appRunner.runApp();
+        });
+      }
+    });
+  });
+</script>
 
-         // Wait for registration to finish before dropping the <script> tag.
-         // Otherwise, the browser will load the script multiple times,
-         // potentially different versions.
-         var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
-
-         //  ...
-       });
-   }
-  </script>
 </body>
 </html>

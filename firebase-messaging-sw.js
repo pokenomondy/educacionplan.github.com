@@ -32,6 +32,4 @@ messaging.onBackgroundMessage((message) => {
   // Muestra la notificación
   self.registration.showNotification(notificationTitle, notificationOptions);
 
-  notificationSound.play();
-
 });
