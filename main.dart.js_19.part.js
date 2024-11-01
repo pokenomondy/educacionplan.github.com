@@ -349,7 +349,7 @@ x=A.b([],y.a)
 for(w=k.ay,v=w.length,u=k.e,t=0;t<w.length;w.length===v||(0,A.K)(w),++t){s=w[t]
 r=s.Q
 for(q=r.length,p=s.c,o=0;o<r.length;r.length===q||(0,A.K)(r),++o){n=r[o]
-if(n.a===u.a.a&&n.c)x.push(p)}}w=k.c
+if(n.a===u.a.a&&n.c)if(!s.fx)x.push(p)}}w=k.c
 w.toString
 m=C.b.fe(A.bK(w,!1,y.b).a,new B.bOV())
 l=A.b([k.f.a.a,C.c.l(k.id),u.a.a,A.bx("dd/MM/yyyy",null).aR(k.CW),A.bx("hh:mma",null).aR(k.CW),k.y.a.a,k.dy,"http://tutores.dufyasesorias.com/#/homeTutor/detalles_solicitud/"+k.id],y.s)
@@ -725,4 +725,4 @@ D.akC=new A.a3(50,30,50,30)
 D.aoR=new A.aW(984405,"MaterialIcons",null,!1)
 D.aUR=new A.bc("New solicitud",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"HuqdndoaEaWSJuhjsz8XgnvPjJs=");
+a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"AJzEtPKTJkxes1oB1nwV2uBRfF8=");
