@@ -653,20 +653,20 @@ var $async$aid=B.k(function(d,e){if(d===1)return B.l(e,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=new B.d6(s)
-if(v.d.a.a.length===0||v.e.a.a.length===0||v.f.a.a.length===0||v.w==null||v.x==null||v.r.a.a.length===0){B.aK()
-B.aK()
-J.Ct(u,"Error, debe llenar todos los campos","Error")}else{try{B.aK()
-B.aK()
-u.nm("Por favor espere","Cargando")
+if(v.d.a.a.length===0||v.e.a.a.length===0||v.f.a.a.length===0||v.w==null||v.x==null||v.r.a.a.length===0){B.aH()
+B.aH()
+J.Ct(u,"Error, debe llenar todos los campos","Error")}else{try{B.aH()
+B.aH()
+u.mZ("Por favor espere","Cargando")
 B.cqn()
 B.cEr()}catch(r){s=u.b
 s===$&&B.a()
-B.bU(s,!1).dl(null)
+B.bR(s,!1).d6(null)
 J.Ct(u,"Error al crear el usuario","Por favor intente de nuevo.")}s=u.b
 s===$&&B.a()
-B.bU(s,!1).dl(null)
-B.aK()
-B.aK()
+B.bR(s,!1).d6(null)
+B.aH()
+B.aH()
 u.fw("El tutor fue creado satisfactoriamente, por favor vuelva a iniciar sesi\xf3n","Exito")}return B.m(null,w)}})
 return B.n($async$aid,w)}}
 A.aWC.prototype={
@@ -1219,7 +1219,7 @@ A.bV9.prototype={
 $1(d){return this.a.b5n(d,this.b,this.c)},
 $S:60}
 A.bV8.prototype={
-$0(){B.bU(this.a,!1).dl(null)
+$0(){B.bR(this.a,!1).d6(null)
 return null},
 $S:0}
 A.bZ4.prototype={
@@ -1323,4 +1323,4 @@ D.aQo=new B.b9("Estadisticas de materia",null,null,null,null,null,null,null,null
 D.aQp=new B.b9("Tutores",null,null,null,null,null,null,null,null,null,null,null)
 D.aQs=new B.b9("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"5+aTtMj/QzdCGrNvSJDstjuBt80=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"HPKoEVrhvwkF911976Ay/+IhYwY=");
