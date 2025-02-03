@@ -1,2 +1,0 @@
-# educacionplan.github.com
-sasdasdassa
