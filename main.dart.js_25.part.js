@@ -1,7 +1,7 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_25",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,E,C={Jp:function Jp(d,e,f,g){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,E,C={Jo:function Jo(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
@@ -19,7 +19,7 @@ _.as=l
 _.ax=m
 _.c=_.a=null},bUS:function bUS(d){this.a=d},bUR:function bUR(d,e){this.a=d
 this.b=e},bUT:function bUT(){},bUU:function bUU(){},bUV:function bUV(){},bUX:function bUX(d){this.a=d},bUP:function bUP(d){this.a=d},bUW:function bUW(d){this.a=d},bUQ:function bUQ(d){this.a=d},bUY:function bUY(){},bUZ:function bUZ(d){this.a=d},bV0:function bV0(d){this.a=d},bV1:function bV1(d){this.a=d},bV2:function bV2(d){this.a=d},bV_:function bV_(d){this.a=d},
-cJV(){return new C.b5i(new C.btO(A.bS(),B.c.ag(Date.now(),1000),new A.ac(Date.now(),0,!1)),A.u(["success",!1,"message","Este error no deberia salirte, contacta al administrador"],y.N,y.z))},
+cJW(){return new C.b5i(new C.btO(A.bS(),B.c.ag(Date.now(),1000),new A.ac(Date.now(),0,!1)),A.u(["success",!1,"message","Este error no deberia salirte, contacta al administrador"],y.N,y.z))},
 b5i:function b5i(d,e){this.a=d
 this.b=e},
 btO:function btO(d,e,f){this.a=d
@@ -31,7 +31,7 @@ B=c[2]
 E=c[25]
 C=a.updateHolder(c[22],C)
 D=c[55]
-C.Jp.prototype={
+C.Jo.prototype={
 P(){var x=A.am(),w=$.ad(),v=y.s,u=A.b(["FACEBOOK","WHATSAPP","REFERIDO AMIGO","INSTAGRAM","CAMPA\xd1A INSTAGRAM"],v)
 return new C.aC7(x,new A.bu(B.D,w),new A.bu(B.D,w),new A.bu(B.D,w),new A.bu(B.D,w),new A.bu(B.D,w),u,new A.bu(B.D,w),new A.bu(B.D,w),A.b([],v))}}
 C.aC7.prototype={
@@ -43,7 +43,7 @@ if(!B.b.p(v,t))v.push(t)}},
 B(d){var x,w,v,u,t,s,r,q,p,o,n=this,m=null,l=n.d,k=l.a
 k=A.w("Subir nuevo prospecto",m,m,m,m,m,A.a3(m,m,k,m,m,m,m,m,"Poppins",m,m,20,m,m,B.v,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)
 x=y.p
-w=A.a8(A.b([A.w("Prospecto?",m,m,m,m,m,m,m,m,m),E.cE8(n.e,new C.bUS(n))],x),B.f,B.i,B.h,m)
+w=A.a8(A.b([A.w("Prospecto?",m,m,m,m,m,m,m,m,m),E.cE9(n.e,new C.bUS(n))],x),B.f,B.i,B.h,m)
 v=A.a8(A.b([D.aWf,new A.P(B.a2,new A.al(300,m,A.hO(!0,B.aC,!1,B.y,A.hP(),n.f,m,m,B.aU,1,new A.ar(m,m,m,A.aU(20),m,m,m,B.p),B.u,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.bG,"Nombre Whatsapp cliente",m,m,B.ai,!1,m,!0,m,B.aN,m,m,B.b_,B.aX,m,m,m,m,m,m,m,B.ai,B.A,m,B.be,m,m,m),m),m)],x),B.f,B.i,B.h,m)
 u=A.a8(A.b([A.w("Nombre Completo",m,m,m,m,m,m,m,m,m),A.c0(new A.P(B.a2,new A.al(m,m,A.hO(!0,B.aC,!1,B.y,A.hP(),n.r,m,m,B.aU,1,new A.ar(m,m,m,A.aU(20),m,m,m,B.p),B.u,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.bG,"Nombre completo del cliente",m,m,B.ai,!1,m,!0,m,B.aN,m,m,B.b_,B.aX,m,m,m,m,m,m,m,B.ai,B.A,m,B.be,m,m,m),m),m),1)],x),B.f,B.i,B.h,m)
 t=A.a8(A.b([D.aWB,new A.P(B.a2,new A.al(300,m,A.hO(!0,B.aC,!1,B.y,A.hP(),n.w,m,m,B.aU,1,new A.ar(m,m,m,A.aU(20),m,m,m,B.p),B.u,!0,m,!0,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,!1,"\u2022",m,m,m,m,m,B.bG,"Numero del cliente",m,m,B.ai,!1,m,!0,m,B.aN,m,m,B.b_,B.aX,m,m,m,m,m,m,m,B.ai,B.A,m,B.be,m,m,m),m),m)],x),B.f,B.i,B.h,m)
@@ -92,9 +92,9 @@ t.fd(0,"Ya existe el cliente","Error")
 x=6
 break
 case 7:x=8
-return A.h(C.cJV().ah2(s,r,v.f.a.a,A.cE(u.a.a,null),v.r.a.a,v.Q.a.a,v.as.a.a,""),$async$a1W)
+return A.h(C.cJW().ah2(s,r,v.f.a.a,A.cE(u.a.a,null),v.r.a.a,v.Q.a.a,v.as.a.a,""),$async$a1W)
 case 8:v.D(new C.bV1(v))
-A.eR(B.c7,new C.bV2(v),y.a)
+A.eS(B.c7,new C.bV2(v),y.a)
 A.au()
 A.au()
 t.fh("La operaci\xf3n salio exitosa","Exito")
@@ -241,13 +241,13 @@ $S:1}
 C.bV_.prototype={
 $0(){},
 $S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(C.Jp,A.L)
+x(C.Jo,A.L)
 x(C.aC7,A.O)
 w(A.il,[C.bUS,C.bUT,C.bUU,C.bUV,C.bUX,C.bUY,C.bV0])
 w(A.jr,[C.bUR,C.bUP,C.bUQ,C.bUZ,C.bV1,C.bV2,C.bV_])
 x(C.bUW,A.js)
 w(A.G,[C.b5i,C.btO])})()
-A.jP(b.typeUniverse,JSON.parse('{"Jp":{"L":[],"d":[]},"aC7":{"O":["Jp"]}}'))
+A.jP(b.typeUniverse,JSON.parse('{"Jo":{"L":[],"d":[]},"aC7":{"O":["Jo"]}}'))
 var y=(function rtii(){var x=A.ag
 return{I:x("bw<fT>"),u:x("bw<c>"),G:x("bw<fB>"),D:x("fT"),s:x("v<c>"),p:x("v<d>"),P:x("T<c,@>"),a:x("c5"),N:x("c"),i:x("fB"),z:x("@"),H:x("~")}})();(function constants(){D.aWc=new A.aV("Nombre Campa\xf1a",null,null,null,null,null,null,null,null,null,null,null)
 D.aWf=new A.aV("Nombre Whatsapp",null,null,null,null,null,null,null,null,null,null,null)
@@ -255,4 +255,4 @@ D.aWB=new A.aV("Numero (debe ser int)",null,null,null,null,null,null,null,null,n
 D.aXa=new A.aV("Universidad (OP)",null,null,null,null,null,null,null,null,null,null,null)
 D.aXg=new A.aV("Carrera (OP)",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_25",e:"endPart",h:b})})($__dart_deferred_initializers__,"T3r1tXRufiaHy1KxJc6U0KkHhxw=");
+a.eventLog.push({p:"main.dart.js_25",e:"endPart",h:b})})($__dart_deferred_initializers__,"rxVp7xrucXRbRexWPzRIbeV4aDc=");
