@@ -2,21 +2,21 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_7",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-ddv(){return new A.JI(null)},
+ddw(){return new A.JI(null)},
 JI:function JI(d){this.a=d},
-c0M:function c0M(){}}
+c0N:function c0N(){}}
 B=c[0]
 C=c[13]
 A=a.updateHolder(c[3],A)
 A.JI.prototype={
-B(d){return new B.os(B.vj("mainWachat_page",0),new A.c0M(),null)}}
+B(d){return new B.os(B.vj("mainWachat_page",0),new A.c0N(),null)}}
 var z=a.updateTypes(["Hn()"])
-A.c0M.prototype={
+A.c0N.prototype={
 $0(){B.vg("mainWachat_page")
-return C.d7T()},
+return C.d7U()},
 $S:z+0};(function inheritance(){var y=a.inherit
 y(A.JI,B.au)
-y(A.c0M,B.o0)})()
+y(A.c0N,B.o1)})()
 B.tE(b.typeUniverse,JSON.parse('{"JI":{"au":[],"c":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"yVkku3qkGuhjcleEk1Z+gyzrZYA=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"ACi6JbxQQ9Vck2UJv9z5U9IJ5Yc=");
