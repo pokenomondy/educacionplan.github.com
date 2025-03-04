@@ -262,14 +262,14 @@ x=6
 return A.h($.ue.dG().AX(!1,C.ani),$async$nn)
 case 6:s=f
 if(s!=null&&J.fj(s.a))d.$1(new B.bBd(t,s))
-else A.aD("No se seleccion\xf3 ning\xfan archivo.")
+else A.aC("No se seleccion\xf3 ning\xfan archivo.")
 v=1
 x=5
 break
 case 3:v=2
 p=u
 r=A.ah(p)
-A.aD("Error al seleccionar el archivo: "+A.j(r))
+A.aC("Error al seleccionar el archivo: "+A.j(r))
 x=5
 break
 case 2:x=1
@@ -287,7 +287,7 @@ x.ah()
 if($.W==null)A.eN()
 $.W.toString
 x.d.iB().bP(0,new B.bKP(x),y.P)},
-n(){A.aD("dispose configuracion TUTOR")
+n(){A.aC("dispose configuracion TUTOR")
 this.aA()},
 B(d){return A.u3(new B.bKN(this),y.l,y.R,y.L)},
 a2x(d){return this.bPl(d)},
@@ -337,14 +337,14 @@ x=6
 return A.h($.ue.dG().Mt(!1,A.b(["pdf"],y.s),C.AT),$async$kA)
 case 6:s=e
 if(s!=null&&J.fj(s.a))t.D(new B.bKQ(t,s))
-else A.aD("No se seleccion\xf3 ning\xfan archivo.")
+else A.aC("No se seleccion\xf3 ning\xfan archivo.")
 v=1
 x=5
 break
 case 3:v=2
 p=u
 r=A.ah(p)
-A.aD("Error al seleccionar el archivo: "+A.j(r))
+A.aC("Error al seleccionar el archivo: "+A.j(r))
 x=5
 break
 case 2:x=1
@@ -572,14 +572,14 @@ $R:5,
 $S:1490}
 B.bKG.prototype={
 $1(d){var x
-A.aD("materias selecicoandas son "+J.at(d))
+A.aC("materias selecicoandas son "+J.as(d))
 x=A.bl(d,!0,y.N)
 this.a.at=x
-A.aD("las materias tring son "+x.length)},
+A.aC("las materias tring son "+x.length)},
 $S:555}
 B.bKH.prototype={
 $1(d){var x
-A.aD("Servicios actualizados: "+A.j(d))
+A.aC("Servicios actualizados: "+A.j(d))
 x=this.a
 x.D(new B.bKF(x,d))},
 $S:555}
@@ -588,7 +588,7 @@ $0(){this.a.cy=A.bl(this.b,!0,y.N)},
 $S:0}
 B.bKI.prototype={
 $1(d){var x
-A.aD("Servicios actualizados: "+A.j(d))
+A.aC("Servicios actualizados: "+A.j(d))
 x=this.a
 x.D(new B.bKE(x,d))},
 $S:1492}
@@ -597,7 +597,7 @@ $0(){this.a.ch=A.bl(this.b,!0,y.n)},
 $S:0}
 B.bKJ.prototype={
 $1(d){var x
-A.aD("Experienca laboral para actualizar: "+d.l(0))
+A.aC("Experienca laboral para actualizar: "+d.l(0))
 x=this.a
 x.D(new B.bKD(x,d))},
 $S:556}
@@ -672,4 +672,4 @@ D.aqp=new A.da(C.Bh,null,null,null,null,null)
 D.aoS=new A.aW(58162,"MaterialIcons",null,!1)
 D.aqv=new A.da(D.aoS,100,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"C7gsedUw4ZUs+2XAqEMkza+31Ns=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"UtQMJDfcBsDjD3x9VcWD6JejmLs=");

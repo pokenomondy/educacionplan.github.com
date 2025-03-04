@@ -15,8 +15,8 @@ A.c1P.prototype={
 $0(){B.vq("mainWachat_page")
 return C.d9h()},
 $S:z+0};(function inheritance(){var y=a.inherit
-y(A.JL,B.as)
+y(A.JL,B.at)
 y(A.c1P,B.o7)})()
-B.tH(b.typeUniverse,JSON.parse('{"JL":{"as":[],"c":[]}}'))};
+B.tH(b.typeUniverse,JSON.parse('{"JL":{"at":[],"c":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"6onpvxXwUP2o/U1X+YNxBPVlbqU=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"G/z2tzaRUTDDWO+VPgcCzMUNF+M=");
