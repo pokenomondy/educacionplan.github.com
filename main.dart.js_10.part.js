@@ -526,7 +526,7 @@ h=B.v(""+s+" tutores expulsados, 0 administradores",i,i,i,i,i,j.gXX(),i,i,i)
 p=B.v(""+r+" tutores por verificar",i,i,i,i,i,j.gXX(),i,i,i)
 o=j.a.d
 n=y.p
-o=B.a2(i,B.DQ(C.mI,B.b([B.rB(D.aXj,new A.cq2(q),i),B.rB(D.aWb,new A.cq3(q),i),B.rB(D.aWh,new A.cq4(q),i),B.rB(D.aXf,new A.cq5(q,v),i),B.rB(D.aWB,new A.cq6(q,v),i)],n),C.hU,C.ar,C.cL,10,10),C.k,i,i,i,i,i,i,i,i,i,i,o)
+o=B.a2(i,B.DQ(C.mI,B.b([B.rD(D.aXj,new A.cq2(q),i),B.rD(D.aWb,new A.cq3(q),i),B.rD(D.aWh,new A.cq4(q),i),B.rD(D.aXf,new A.cq5(q,v),i),B.rD(D.aWB,new A.cq6(q,v),i)],n),C.hU,C.ar,C.cL,10,10),C.k,i,i,i,i,i,i,i,i,i,i,o)
 m=j.a.d
 l=B.aV(80)
 k=B.K(d).i("C<1,bz<f7>>")
@@ -1092,7 +1092,7 @@ x=o?B.I(C.d.ac(25.5),44,197,65):B.I(C.d.ac(25.5),248,54,54)
 w=B.aV(20)
 v=o?"Tutor Activo":"Tutor Inactivo"
 o=o?C.hp:C.bn
-return new B.O(E.IA,B.aip(B.a0(B.b([n,D.ajT,new B.O(C.dZ,m,s),new B.O(C.dZ,B.a8(B.b([B.a2(s,B.v(v,s,s,s,s,s,B.a4(s,s,o,s,s,s,s,s,r,s,s,14,s,s,C.v,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),C.k,s,s,new B.ar(x,s,s,w,s,s,s,C.p),s,s,s,s,D.IC,s,s,s),C.yh,B.a8(B.b([B.rB(D.aqu,new A.cpX(d,q),B.cMw(s,s,u.ay.a,s,s,s,s,s,s,s,s,s,C.cn,s,C.n8,s,s,s,s)),B.rB(D.aq8,new A.cpY(u,q),B.cMw(s,s,C.bn,s,s,s,s,s,s,s,s,s,C.cn,s,C.n8,s,s,s,s))],t),C.f,C.dD,C.h,s)],t),C.f,C.i,C.h,s),s)],t),C.f,s,C.i,C.h,C.l),s,8,s,new B.eK(p,C.C)),s)},
+return new B.O(E.IA,B.aip(B.a0(B.b([n,D.ajT,new B.O(C.dZ,m,s),new B.O(C.dZ,B.a8(B.b([B.a2(s,B.v(v,s,s,s,s,s,B.a4(s,s,o,s,s,s,s,s,r,s,s,14,s,s,C.v,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),C.k,s,s,new B.ar(x,s,s,w,s,s,s,C.p),s,s,s,s,D.IC,s,s,s),C.yh,B.a8(B.b([B.rD(D.aqu,new A.cpX(d,q),B.cMw(s,s,u.ay.a,s,s,s,s,s,s,s,s,s,C.cn,s,C.n8,s,s,s,s)),B.rD(D.aq8,new A.cpY(u,q),B.cMw(s,s,C.bn,s,s,s,s,s,s,s,s,s,C.cn,s,C.n8,s,s,s,s))],t),C.f,C.dD,C.h,s)],t),C.f,C.i,C.h,s),s)],t),C.f,s,C.i,C.h,C.l),s,8,s,new B.eK(p,C.C)),s)},
 $S:153}
 A.cpV.prototype={
 $0(){new B.d8(B.bF()).lh(this.a.p4)},
@@ -1371,8 +1371,8 @@ w(A.aeA,A.aez)
 w(A.aHL,A.aeA)
 w(A.aHK,B.Mj)
 x(A.aez,B.hE)
-x(A.aeA,B.qk)})()
-B.tH(b.typeUniverse,JSON.parse('{"Rp":{"N":[],"c":[]},"S7":{"N":[],"c":[]},"a5Z":{"N":[],"c":[]},"RV":{"N":[],"c":[]},"S6":{"N":[],"c":[]},"DG":{"N":[],"c":[]},"aDe":{"P":["DG"]},"aDd":{"P":["Rp"]},"aIn":{"P":["S7"]},"aSe":{"P":["a5Z"]},"aHl":{"P":["RV"]},"aIm":{"P":["S6"]},"Wf":{"N":[],"c":[]},"aHL":{"P":["Wf"]},"aHK":{"aI":[]}}'))
+x(A.aeA,B.qm)})()
+B.tJ(b.typeUniverse,JSON.parse('{"Rp":{"N":[],"c":[]},"S7":{"N":[],"c":[]},"a5Z":{"N":[],"c":[]},"RV":{"N":[],"c":[]},"S6":{"N":[],"c":[]},"DG":{"N":[],"c":[]},"aDe":{"P":["DG"]},"aDd":{"P":["Rp"]},"aIn":{"P":["S7"]},"aSe":{"P":["a5Z"]},"aHl":{"P":["RV"]},"aIm":{"P":["S6"]},"Wf":{"N":[],"c":[]},"aHL":{"P":["Wf"]},"aHK":{"aI":[]}}'))
 var y=(function rtii(){var x=B.am
 return{I:x("bz<hQ>"),u:x("bz<dJ>"),b:x("bz<d>"),m:x("bz<f7>"),j:x("bz<ho>"),D:x("hQ"),g:x("iO"),_:x("fp"),S:x("fr"),V:x("y<hQ>"),C:x("y<dJ>"),M:x("y<lt>"),q:x("y<f6>"),e:x("y<hF>"),s:x("y<d>"),W:x("y<f7>"),B:x("y<ho>"),p:x("y<c>"),n:x("y<Z>"),Q:x("w<hQ>"),G:x("w<dJ>"),R:x("w<f7>"),A:x("w<ho>"),U:x("V<d,Z>"),o:x("dJ"),k:x("m5"),w:x("lr"),P:x("ca"),r:x("hd"),N:x("d"),L:x("f7"),t:x("b8<Z>"),Y:x("ho"),F:x("j0"),l:x("eD"),v:x("c"),i:x("Z"),z:x("@"),X:x("G?"),H:x("~")}})();(function constants(){D.a3x=new B.bi(20,20)
 D.a8y=new B.eR(D.a3x,D.a3x,C.al,C.al)
@@ -1397,4 +1397,4 @@ D.aXO=new B.aN("Estadisticas de materia",null,null,null,null,null,null,null,null
 D.aXR=new B.aN("Tutores",null,null,null,null,null,null,null,null,null,null,null)
 D.aXV=new B.aN("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_10",e:"endPart",h:b})})($__dart_deferred_initializers__,"DHQNerRpJ0IeUNLS8xcdCM2Z+aI=");
+a.eventLog.push({p:"main.dart.js_10",e:"endPart",h:b})})($__dart_deferred_initializers__,"T0chJoWgTwi62W10fQEJJyHqbAw=");
