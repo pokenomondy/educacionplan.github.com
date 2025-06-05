@@ -131,11 +131,11 @@ bLQ:function bLQ(d,e){this.a=d
 this.b=e},
 azc:function azc(d,e,f,g,h){var _=this
 _.dP=null
-_.eB=$
+_.eD=$
 _.G=d
 _.ao=null
 _.av=e
-_.bd=null
+_.be=null
 _.F$=f
 _.fx=g
 _.b=_.id=null
@@ -190,32 +190,32 @@ x.Q=B.bl(w.ch,!0,v)
 x.ae()
 if($.W==null)B.eI()
 $.W.toString
-x.f.iB().bP(0,new A.bC3(x),y.P)},
+x.f.iB().bQ(0,new A.bC3(x),y.P)},
 B(d){var x=this.r
 if(x===$?this.r=!1:x)return B.rA(new A.bC1(this),y.l,y.g,y.F)
 else return C.e6},
-tN(d,e){return this.bOa(d,e)},
+tO(d,e){return this.bOa(d,e)},
 bOa(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
-var $async$tN=B.j(function(f,g){if(f===1)return B.l(g,w)
+var $async$tO=B.j(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=new B.cW(s)
 s=B.cj(new B.dC().jc(v.d.R8),y.f)
 r=J
 x=2
-return B.e(s,$async$tN)
+return B.e(s,$async$tO)
 case 2:s=r.T(g,"baseData")
 s.toString
 x=3
-return B.e(B.jR().Mn(e,d,v.d.r,s),$async$tN)
+return B.e(B.jR().Mn(e,d,v.d.r,s),$async$tO)
 case 3:t=g
 s=J.P(t)
 if(!s.h(t,"success")){s=s.h(t,"message")
 B.an()
-u.eO(0,s,"Error")}else{s=s.h(t,"message")
+u.eQ(0,s,"Error")}else{s=s.h(t,"message")
 B.an()
-u.f2(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
-return B.n($async$tN,w)},
+u.f3(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
+return B.n($async$tO,w)},
 aU8(d,e){var x=null,w=this.f.a.a,v=y.p
 return B.a7(B.b([new B.O(E.alJ,B.a1(B.b([B.v(d,x,x,x,x,x,B.a0(x,x,B.F(166,w>>>16&255,w>>>8&255,w&255),x,x,x,x,x,"Poppins",x,x,15,x,x,C.t,x,x,!0,x,x,x,x,x,x,x,x),C.z,x,x),B.v(e,x,x,x,x,x,B.a0(x,x,B.F(C.d.a8(127.5),0,0,0),x,x,x,x,x,"Poppins",x,x,12,x,x,C.Z,x,x,!0,x,x,x,x,x,x,x,x),C.z,x,x)],v),C.I,x,C.i,C.h,C.l),x)],v),C.f,C.i,C.h,x)},
 bex(d){return B.kI(new A.bBO(this),d,y.X)},
@@ -230,7 +230,7 @@ u=new B.cW(q)
 x=d.length===0?2:4
 break
 case 2:B.an()
-u.eO(0,"Debes seleccionar una foto","Error")
+u.eQ(0,"Debes seleccionar una foto","Error")
 x=3
 break
 case 4:x=5
@@ -239,7 +239,7 @@ case 5:t=f
 x=t.length===0?6:8
 break
 case 6:B.an()
-u.eO(0,"Este error no deberia salirte, contacta al administrador","Error")
+u.eQ(0,"Este error no deberia salirte, contacta al administrador","Error")
 x=7
 break
 case 8:x=9
@@ -248,12 +248,12 @@ case 9:s=f
 q=J.P(s)
 if(!q.h(s,"success")){q=q.h(s,"message")
 B.an()
-u.eO(0,q,"Error")}else{r=v.c
+u.eQ(0,q,"Error")}else{r=v.c
 r.toString
-B.bj(r,!1).bQ(null)
+B.bj(r,!1).bR(null)
 q=q.h(s,"message")
 B.an()
-u.f2(q,"La operaci\xf3n salio exitosa")}case 7:case 3:return B.m(null,w)}})
+u.f3(q,"La operaci\xf3n salio exitosa")}case 7:case 3:return B.m(null,w)}})
 return B.n($async$yS,w)},
 nm(d){return this.aZf(d)},
 aZf(d){var x=0,w=B.o(y.z),v=1,u,t=this,s,r,q,p
@@ -287,7 +287,7 @@ x.cx=w*0.6
 x.ae()
 if($.W==null)B.eI()
 $.W.toString
-x.d.iB().bP(0,new A.bLO(x),y.P)},
+x.d.iB().bQ(0,new A.bLO(x),y.P)},
 n(){B.aC("dispose configuracion TUTOR")
 this.aA()},
 B(d){return B.rA(new A.bLM(this),y.l,y.R,y.L)},
@@ -315,12 +315,12 @@ case 4:r=f
 q=J.P(r)
 if(!q.h(r,"success")){q=q.h(r,"message")
 B.an()
-t.eO(0,q,"Error")
+t.eQ(0,q,"Error")
 v=!1
 x=1
 break}else{q=q.h(r,"message")
 B.an()
-t.f2(q,"La operaci\xf3n salio exitosa")
+t.f3(q,"La operaci\xf3n salio exitosa")
 v=!0
 x=1
 break}case 1:return B.m(v,w)}})
@@ -336,11 +336,11 @@ o=$.ph
 if(o==null)B.pg(p)
 else o.$1(p)
 n.push(new B.rJ(u,q.d,""))}return n},
-kD(){var x=0,w=B.o(y.z),v=1,u,t=this,s,r,q,p
-var $async$kD=B.j(function(d,e){if(d===1){u=e
+kE(){var x=0,w=B.o(y.z),v=1,u,t=this,s,r,q,p
+var $async$kE=B.j(function(d,e){if(d===1){u=e
 x=v}while(true)switch(x){case 0:v=3
 x=6
-return B.e($.ue.dG().MG(!1,B.b(["pdf"],y.s),C.B5),$async$kD)
+return B.e($.ue.dG().MG(!1,B.b(["pdf"],y.s),C.B5),$async$kE)
 case 6:s=e
 if(s!=null&&J.fj(s.a))t.D(new A.bLQ(t,s))
 else B.aC("No se seleccion\xf3 ning\xfan archivo.")
@@ -357,16 +357,16 @@ case 2:x=1
 break
 case 5:return B.m(null,w)
 case 1:return B.l(u,w)}})
-return B.n($async$kD,w)}}
+return B.n($async$kE,w)}}
 A.azc.prototype={
 gJc(){var x=this.gu(0)
 return new B.G(0,0,0+x.a,0+x.b)},
 dW(d,e){var x,w,v=this
 v.uO()
-x=v.ao.gcn()
+x=v.ao.gco()
 w=v.ao
-if(new B.i((e.a-x.a)/(w.c-w.a),(e.b-x.b)/(w.d-w.b)).gDn()>0.25)return!1
-return v.qD(d,e)},
+if(new B.i((e.a-x.a)/(w.c-w.a),(e.b-x.b)/(w.d-w.b)).gDo()>0.25)return!1
+return v.qF(d,e)},
 ai(d,e){var x,w,v,u=this,t=u.F$
 if(t!=null)if(u.av!==C.j){u.uO()
 t=u.cx
@@ -374,23 +374,23 @@ t===$&&B.a()
 x=u.ao
 x.toString
 if(!x.m(0,u.dP)){u.dP=x
-w=$.ap().ex()
+w=$.ap().ez()
 v=u.dP
 v.toString
 w.wa(v)
-u.eB=w}w=u.eB
+u.eD=w}w=u.eD
 w===$&&B.a()
 v=u.ch
-v.scJ(0,d.a6l(t,e,x,w,B.kv.prototype.glW.call(u),u.av,y.h.a(v.a)))}else{d.ez(t,e)
-u.ch.scJ(0,null)}else u.ch.scJ(0,null)}}
+v.scK(0,d.a6l(t,e,x,w,B.kv.prototype.glW.call(u),u.av,y.h.a(v.a)))}else{d.eB(t,e)
+u.ch.scK(0,null)}else u.ch.scK(0,null)}}
 A.ajk.prototype={
-b8(d){var x=new A.azc(null,C.bo,null,new B.b9(),B.aJ(y.v))
-x.bk()
-x.sc5(null)
+b9(d){var x=new A.azc(null,C.bo,null,new B.b9(),B.aJ(y.v))
+x.bl()
+x.sc6(null)
 return x},
-bm(d,e){e.sD1(null)
+bn(d,e){e.sD2(null)
 e.sv7(C.bo)},
-Lc(d){d.sD1(null)}}
+Lc(d){d.sD2(null)}}
 var z=a.updateTypes([])
 A.b4h.prototype={
 $2(d,e){return B.a7(B.b([new A.Pn(d*0.4,e,!1,null),new A.Qr(d*0.6,e,!1,null)],y.p),C.f,C.i,C.h,null)},
@@ -463,31 +463,31 @@ A.bBR.prototype={
 $0(){this.a.bex(this.b)},
 $S:0}
 A.bBU.prototype={
-$1(d){this.a.tN(d,"nombre completo")},
+$1(d){this.a.tO(d,"nombre completo")},
 $S:6}
 A.bBV.prototype={
-$1(d){this.a.tN(d,"numero whatsapp")},
+$1(d){this.a.tO(d,"numero whatsapp")},
 $S:6}
 A.bBW.prototype={
-$1(d){this.a.tN(d,"tipoDocumento")},
+$1(d){this.a.tO(d,"tipoDocumento")},
 $S:6}
 A.bBX.prototype={
-$1(d){this.a.tN(d,"identificacionTutor")},
+$1(d){this.a.tO(d,"identificacionTutor")},
 $S:6}
 A.bBY.prototype={
-$1(d){this.a.tN(d,"paisOrigen")},
+$1(d){this.a.tO(d,"paisOrigen")},
 $S:6}
 A.bBZ.prototype={
-$1(d){this.a.tN(d,"ciudadOrigen")},
+$1(d){this.a.tO(d,"ciudadOrigen")},
 $S:6}
 A.bC_.prototype={
-$1(d){this.a.tN(d,"formacionAcademica")},
+$1(d){this.a.tO(d,"formacionAcademica")},
 $S:6}
 A.bC0.prototype={
-$1(d){this.a.tN(d,"carrera")},
+$1(d){this.a.tO(d,"carrera")},
 $S:6}
 A.bBS.prototype={
-$1(d){this.a.tN(d,"Universidad")},
+$1(d){this.a.tO(d,"Universidad")},
 $S:6}
 A.bBT.prototype={
 $0(){var x=new B.dz(B.cK())
@@ -644,7 +644,7 @@ $1(d){var x=null
 return B.Z(x,this.a.$3(d.b,14,!0),C.j,x,x,x,x,x,x,x,x,x,x,x)},
 $S:119}
 A.bLt.prototype={
-$0(){this.a.kD()},
+$0(){this.a.kE()},
 $S:0}
 A.bLR.prototype={
 $0(){new B.dp(B.br()).lE(this.a.ch)},
@@ -664,9 +664,9 @@ w(A.azc,B.KD)
 w(A.ajk,B.cl)})()
 B.tK(b.typeUniverse,JSON.parse('{"Wj":{"N":[],"c":[]},"aj3":{"Q":["Wj"]},"Pn":{"N":[],"c":[]},"Qr":{"N":[],"c":[]},"B8":{"N":[],"c":[]},"ajS":{"Q":["B8"]},"axP":{"Q":["Pn"]},"aAv":{"Q":["Qr"]},"azc":{"J":[],"c_":["J"],"E":[],"aK":[]},"ajk":{"cl":[],"aO":[],"c":[]}}'))
 var y=(function rtii(){var x=B.ar
-return{g:x("iR"),G:x("i6"),v:x("ko"),w:x("z<rJ>"),C:x("z<dU>"),S:x("z<mW>"),s:x("z<d>"),p:x("z<c>"),Y:x("z<pf>"),A:x("w<rJ>"),f:x("U<d,d>"),n:x("dU"),R:x("m9"),P:x("cb"),L:x("mY"),N:x("d"),F:x("j5"),l:x("eH"),y:x("I"),z:x("@"),h:x("Fv?"),X:x("H?"),H:x("~")}})();(function constants(){E.alJ=new B.a4(10,15,0,18)
+return{g:x("iR"),G:x("i6"),v:x("ko"),w:x("z<rJ>"),C:x("z<dU>"),S:x("z<mV>"),s:x("z<d>"),p:x("z<c>"),Y:x("z<pf>"),A:x("w<rJ>"),f:x("U<d,d>"),n:x("dU"),R:x("m9"),P:x("cb"),L:x("mY"),N:x("d"),F:x("j5"),l:x("eH"),y:x("I"),z:x("@"),h:x("Fv?"),X:x("H?"),H:x("~")}})();(function constants(){E.alJ=new B.a4(10,15,0,18)
 E.IS=new B.a4(20,8,20,8)
 E.aqT=new B.d9(C.Bv,null,null,null,null,null)
 E.aqZ=new B.d9(F.L2,100,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"PO8Ajhmwf5bxkSELv9Oh8ra+uok=");
+a.eventLog.push({p:"main.dart.js_19",e:"endPart",h:b})})($__dart_deferred_initializers__,"mzbQVc5+yBJKL6VAGGlIxmn5tLY=");
