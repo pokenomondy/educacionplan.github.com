@@ -216,7 +216,7 @@ return B.e(v.lN(!0,"expulsado"),$async$CR)
 case 7:x=8
 return B.e(v.lN(!0,"archivado"),$async$CR)
 case 8:case 6:x=9
-return B.e(new B.qh(B.br()).q9(s,t.e,r),$async$CR)
+return B.e(new B.qh(B.br()).qb(s,t.e,r),$async$CR)
 case 9:case 3:return B.m(null,w)}})
 return B.n($async$CR,w)},
 lN(d,e){return this.bIY(d,e)},
@@ -748,4 +748,4 @@ D.aYe=new B.aP("Agregar materias",null,null,null,null,null,null,null,null,null,n
 D.aYi=new B.aP("El tutor no fue aprobado",null,null,null,null,null,null,null,null,null,null,null)
 D.b_e=B.bY("I")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"ECEO9QoJwFSOqzQ98OxAvdvR0Ew=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"riB5158XeC5RPgVZI/c/0H/EzCg=");

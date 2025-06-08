@@ -185,7 +185,7 @@ x=A.d_(null,null,null,!1,y.E)
 v.d=x
 if((x.b&4)===0){x=v.c
 x.toString
-w=v.e.re(x)
+w=v.e.rf(x)
 v.d.eZ(0,w)}},
 n(){A.aC("dispose wachat - dashboard chat")
 var x=this.d
@@ -308,34 +308,34 @@ case 5:v.D(new B.cCh(v))
 case 3:return A.m(null,w)}})
 return A.n($async$Yc,w)}}
 B.agi.prototype={
-re(d){return this.aXI(d)},
-aXI(b4){var $async$re=A.j(function(b6,b7){switch(b6){case 2:s=v
+rf(d){return this.aXI(d)},
+aXI(b4){var $async$rf=A.j(function(b6,b7){switch(b6){case 2:s=v
 x=s.pop()
 break
 case 1:t=b7
 x=u}while(true)switch(x){case 0:b3=r.a
 x=3
-return A.am(b3.cR(),$async$re,w)
+return A.am(b3.cR(),$async$rf,w)
 case 3:q=A.bc(b4,!1,y.r)
 b3=b3.k2
 b3.toString
 x=4
-return A.am(A.fg(),$async$re,w)
+return A.am(A.fg(),$async$rf,w)
 case 4:p=b7
 d=A.eR(J.T(p.a,"checked_chatswhatchat"))
 o=d===!0
 n=null
 x=5
-return A.am(r.a2b(),$async$re,w)
+return A.am(r.a2b(),$async$rf,w)
 case 5:a0=b7
 x=!o?6:8
 break
 case 6:n=b3.cW()
 x=7
 break
-case 8:n=b3.iy(0,"ult_mensaje",a0).cW()
+case 8:n=b3.it(0,"ult_mensaje",a0).cW()
 x=9
-return A.am(r.b.fh(new B.cBn(),y.A),$async$re,w)
+return A.am(r.b.fh(new B.cBn(),y.A),$async$rf,w)
 case 9:a1=b7
 a1.toString
 q.bMK(a1)
@@ -343,16 +343,16 @@ case 7:b3=new A.fS(A.eS(n,"stream",y.K),y.D)
 u=10
 d=r.b,a2=y.H,a3=y.A,a4=y.P,a5=y.O
 case 13:x=15
-return A.am(b3.v(),$async$re,w)
+return A.am(b3.v(),$async$rf,w)
 case 15:if(!b7){x=14
 break}m=b3.gU(0)
 l=A.b([],a5)
 a6=$.ph
 if(a6==null)A.pg("EJECUTANDO CHATS STREAM")
 else a6.$1("EJECUTANDO CHATS STREAM")
-for(a7=m.gdV(),a8=a7.length,a9=0;a9<a7.length;a7.length===a8||(0,A.L)(a7),++a9){k=a7[a9]
+for(a7=m.gdX(),a8=a7.length,a9=0;a9<a7.length;a7.length===a8||(0,A.L)(a7),++a9){k=a7[a9]
 try{b0=k
-b0=J.c8(b0).ea(b0)
+b0=J.c8(b0).eb(b0)
 b0.toString
 j=a4.a(b0)
 i=A.cXD(j)
@@ -363,7 +363,7 @@ if(a6==null)A.pg(b2)
 else a6.$1(b2)}}x=!o?16:18
 break
 case 16:x=19
-return A.am(p.jI("Bool","checked_chatswhatchat",!0),$async$re,w)
+return A.am(p.jI("Bool","checked_chatswhatchat",!0),$async$rf,w)
 case 19:a7=q
 a8=a7.a
 C.b.J(a8)
@@ -371,11 +371,11 @@ a7.a9()
 C.b.K(a8,l)
 a7.a9()
 x=20
-return A.am(d.fh(new B.cBo(l),a2),$async$re,w)
+return A.am(d.fh(new B.cBo(l),a2),$async$rf,w)
 case 20:x=17
 break
 case 18:x=21
-return A.am(d.fh(new B.cBp(),a3),$async$re,w)
+return A.am(d.fh(new B.cBp(),a3),$async$rf,w)
 case 21:g=b7
 for(a7=l,a8=a7.length,a9=0;a9<a7.length;a7.length===a8||(0,A.L)(a7),++a9){f=a7[a9]
 b0=g
@@ -385,10 +385,10 @@ if(!J.h(e,-1))q.bY2(f)
 else{b0=q
 b0.a.push(f)
 b0.a9()}}x=22
-return A.am(d.fh(new B.cBr(l),a2),$async$re,w)
+return A.am(d.fh(new B.cBr(l),a2),$async$rf,w)
 case 22:case 17:x=23
 v=[1,11]
-return A.am(A.kb(l),$async$re,w)
+return A.am(A.kb(l),$async$rf,w)
 case 23:x=13
 break
 case 14:s.push(12)
@@ -397,12 +397,12 @@ break
 case 10:s=[2]
 case 11:u=2
 x=24
-return A.am(b3.b4(0),$async$re,w)
+return A.am(b3.b4(0),$async$rf,w)
 case 24:x=s.pop()
 break
 case 12:case 1:return A.am(null,0,w)
 case 2:return A.am(t,1,w)}})
-var x=0,w=A.jM($async$re,y.E),v,u=2,t,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
+var x=0,w=A.jM($async$rf,y.E),v,u=2,t,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 return A.jN(w)},
 a2b(){var x=0,w=A.o(y.z),v,u=this,t,s
 var $async$a2b=A.j(function(d,e){if(d===1)return A.l(e,w)
@@ -413,7 +413,7 @@ s.toString
 t=J.P(s)
 if(t.gaN(s)){v=0
 x=1
-break}else{v=t.f0(s,new B.cBl(),y.S).dT(0,new B.cBm())
+break}else{v=t.f0(s,new B.cBl(),y.S).dU(0,new B.cBm())
 x=1
 break}case 1:return A.m(v,w)}})
 return A.n($async$a2b,w)},
@@ -443,7 +443,7 @@ break
 case 6:n=e.cW()
 x=7
 break
-case 8:n=e.iy(0,"ult_mensaje",d).cW()
+case 8:n=e.it(0,"ult_mensaje",d).cW()
 x=9
 return A.am(r.KI(),$async$uq,w)
 case 9:a0=b5
@@ -459,9 +459,9 @@ a3=$.ph
 if(a3==null)A.pg(a2)
 else a3.$1(a2)
 l=A.b([],a1)
-for(a4=m.gdV(),a5=a4.length,a6=0;a6<a4.length;a4.length===a5||(0,A.L)(a4),++a6){k=a4[a6]
+for(a4=m.gdX(),a5=a4.length,a6=0;a6<a4.length;a4.length===a5||(0,A.L)(a4),++a6){k=a4[a6]
 try{a7=k
-a7=J.c8(a7).ea(a7)
+a7=J.c8(a7).eb(a7)
 a7.toString
 j=f.a(a7)
 J.cy(j,"phoneNumber",A.fR(b2,null))
@@ -525,7 +525,7 @@ case 3:t=r.j7(f,new B.cBu(d))
 s=A.y(t,!0,t.$ti.i("A.E"))
 if(s.length===0){v=0
 x=1
-break}else{v=new A.C(s,new B.cBv(),A.K(s).i("C<1,u>")).dT(0,new B.cBw())
+break}else{v=new A.C(s,new B.cBv(),A.K(s).i("C<1,u>")).dU(0,new B.cBw())
 x=1
 break}case 1:return A.m(v,w)}})
 return A.n($async$a5o,w)}}
@@ -822,7 +822,7 @@ $1(d){return C.e.p(C.c.l(d.c),this.a.r.a.a)},
 $S:114}
 B.cCq.prototype={
 $2(d,e){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=null,j=l.b
-C.b.dZ(j,new B.cCi())
+C.b.e0(j,new B.cCi())
 x=j[e]
 j=A.ei(x.b*1000,0,!1)
 w=C.c.af(new A.ab(Date.now(),0,!1).h8(new A.ab(j,0,!1)).a,36e8)
@@ -844,7 +844,7 @@ o=o?A.v("Desarchivar Chat",k,k,k,k,k,k,k,k,k):A.v("Archivar Chat",k,k,k,k,k,k,k,
 return A.bP(k,A.jt(s,k,C.bI,A.a1(A.b([r,v,q,p,n,m,A.ks(o,new B.cCj(u,x))],y.p),C.f,k,C.i,C.h,C.l),k,C.c6),C.v,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,new B.cCk(),k,k,k,new B.cCl(u,d,x,j,l.d),k,k,k,k,k,k)},
 $S:1538}
 B.cCi.prototype={
-$2(d,e){return C.c.bN(e.a,d.a)},
+$2(d,e){return C.c.bO(e.a,d.a)},
 $S:1539}
 B.cCl.prototype={
 $0(){var x,w=this,v=A.bc(w.b,!1,y.r),u=v.c=w.c
@@ -898,7 +898,7 @@ $0(){A.bj(this.a,!1).bR(null)},
 $S:0}
 B.cC8.prototype={
 $2(d,e){var x,w,v,u,t,s=null,r=this.b
-C.b.dZ(r,new B.cC6())
+C.b.e0(r,new B.cC6())
 x=r[e]
 r=x.c
 w=r==="CLIENTE"
@@ -910,7 +910,7 @@ if(!w)u.push(A.v("Enviado por "+r,s,s,s,s,s,s,s,s,s))
 return A.Z(s,A.a1(u,t,s,C.i,C.h,C.l),C.j,v,s,s,s,s,s,C.AU,D.amj,s,s,s)},
 $S:125}
 B.cC6.prototype={
-$2(d,e){return C.c.bN(e.b,d.b)},
+$2(d,e){return C.c.bO(e.b,d.b)},
 $S:1543}
 B.cCd.prototype={
 $0(){new A.dp(A.br()).lE(this.a.Q)},
@@ -1028,7 +1028,7 @@ B.cBm.prototype={
 $2(d,e){return d>e?d:e},
 $S:31}
 B.cBt.prototype={
-$1(d){return C.b.oz(this.a,new B.cBs(d))===-1},
+$1(d){return C.b.oA(this.a,new B.cBs(d))===-1},
 $S:209}
 B.cBs.prototype={
 $1(d){return d.a===this.a.a},
@@ -1075,7 +1075,7 @@ B.c3H.prototype={
 $0(){return!1},
 $S:4}
 B.c3I.prototype={
-$2(d,e){var x,w,v,u,t,s,r,q,p=null,o=this.b,n=new A.b1(o,A.t(o).i("b1<1>")).e3(0,e)
+$2(d,e){var x,w,v,u,t,s,r,q,p=null,o=this.b,n=new A.b1(o,A.t(o).i("b1<1>")).e5(0,e)
 o=o.h(0,n)
 o.toString
 x=this.a
@@ -1221,4 +1221,4 @@ D.aY6=new A.aP("Unpin",null,null,null,null,null,null,null,null,null,null,null)
 D.aY8=new A.aP("Sin mensajes.",null,null,null,null,null,null,null,null,null,null,null)
 D.aYq=new A.aP("Cargando mensajes...",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"KXWL5XwmU30o4ggz4R1EczRGwqU=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"qMbZ/MxAqk92d56/9fTQUlXCoxU=");

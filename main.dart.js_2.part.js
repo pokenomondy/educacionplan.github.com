@@ -194,7 +194,7 @@ x.ae()
 x.d=A.co(null,C.AJ,null,1,null,x)
 x.a.toString},
 bg(d){var x,w
-this.bF(d)
+this.bG(d)
 this.a.toString
 x=this.d
 x===$&&A.a()
@@ -244,7 +244,7 @@ n(){var x=this,w=x.aR$
 if(w!=null)w.X(0,x.gko())
 x.aR$=null
 x.aA()},
-dR(){this.eV()
+dS(){this.eV()
 this.eM()
 this.kp()}}
 B.bRv.prototype={
@@ -270,7 +270,7 @@ B.b5M.prototype={
 $3(d,e,f){var x,w,v,u,t=null,s=J.j7(e.b,new B.b5I()),r=A.y(s,!0,s.$ti.i("A.E"))
 s=A.K(r).i("ah<1>")
 x=A.y(new A.ah(r,new B.b5J(),s),!0,s.i("A.E"))
-C.b.dZ(x,new B.b5K())
+C.b.e0(x,new B.b5K())
 s=x.length
 w=A.v("Proyectos activos: "+s,t,t,t,t,t,E.a5V,t,t,t)
 v=this.a
@@ -281,13 +281,13 @@ $C:"$3",
 $R:3,
 $S:315}
 B.b5I.prototype={
-$1(d){return d.d==="TESIS"&&d.e.bD(A.V(2024,1,1,0,0,0,0,0))},
+$1(d){return d.d==="TESIS"&&d.e.bE(A.V(2024,1,1,0,0,0,0,0))},
 $S:53}
 B.b5J.prototype={
 $1(d){return!d.fy},
 $S:53}
 B.b5K.prototype={
-$2(d,e){return e.w.bN(0,d.w)},
+$2(d,e){return e.w.bO(0,d.w)},
 $S:171}
 B.b5L.prototype={
 $2(d,e){var x=this.b[e],w=this.a,v=w.e,u=x.c
@@ -359,7 +359,7 @@ x=$.ap().aX()
 x.sH(0,f)
 x.sbZ(v)
 x.saz(0,C.a4)
-x.srj(C.fA)
+x.srk(C.fA)
 x.sa9s(C.EA)
 this.c.eA(d,e,x)},
 $S:1533}
@@ -399,4 +399,4 @@ D.aq8=new A.aS(62095,"FluentIcons","fluent_ui",!1)
 D.aUc=new A.a5(!0,null,null,null,null,null,12,null,C.lC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.aX1=new A.aP("Se requiere registrar avances",null,D.aUc,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"8MlJbGbZkvkjPxavqznPgkFjEFM=");
+a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"VARcMiT0tXPnbPQu5O4PkD6UWnY=");
