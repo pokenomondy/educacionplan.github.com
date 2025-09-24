@@ -1021,7 +1021,7 @@ q=A.b([v.a.d.b],y.s)
 x=d?2:4
 break
 case 2:x=7
-return A.h(v.lG(v.r.a.a,"nombre Whatsapp"),$async$tE)
+return A.h(v.lt(v.r.a.a,"nombre Whatsapp"),$async$tE)
 case 7:x=f?5:6
 break
 case 5:A.av()
@@ -1031,7 +1031,7 @@ p=y.z
 x=8
 return A.h(A.dv(B.jI,null,p),$async$tE)
 case 8:x=9
-return A.h(v.lG("TUTOR","rol"),$async$tE)
+return A.h(v.lt("TUTOR","rol"),$async$tE)
 case 9:A.av()
 A.av()
 u.k8("Por favor espere","Cargando")
@@ -1041,7 +1041,7 @@ case 10:A.av()
 A.av()
 u.k8("Por favor espere","Cargando")
 x=11
-return A.h(v.lG(!0,"activo"),$async$tE)
+return A.h(v.lt(!0,"activo"),$async$tE)
 case 11:x=12
 return A.h(new A.xk(A.c0()).v_(r,s.e,q),$async$tE)
 case 12:p=v.c
@@ -1067,7 +1067,7 @@ u.k8("Por favor espere","Cargando")
 x=13
 return A.h(A.dv(B.jI,null,y.z),$async$tE)
 case 13:x=14
-return A.h(v.lG(!0,"archivado"),$async$tE)
+return A.h(v.lt(!0,"archivado"),$async$tE)
 case 14:x=15
 return A.h(new A.xk(A.c0()).v_(r,s.e,q),$async$tE)
 case 15:p=u.b
@@ -1076,16 +1076,16 @@ A.bw(p,!1).ci(null)
 A.bw(u.b,!1).ci(null)
 case 3:return A.m(null,w)}})
 return A.n($async$tE,w)},
-lG(d,e){return this.bHv(d,e)},
+lt(d,e){return this.bHv(d,e)},
 bHv(d,e){var x=0,w=A.o(y.y),v,u=this,t,s,r
-var $async$lG=A.k(function(f,g){if(f===1)return A.l(g,w)
+var $async$lt=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:r=u.c
 r.toString
 t=new A.de(r)
 r=new A.et().kh(u.a.d.R8).h(0,"baseData")
 r.toString
 x=3
-return A.h(A.kA().M0(e,d,u.a.d.r,r),$async$lG)
+return A.h(A.kA().M0(e,d,u.a.d.r,r),$async$lt)
 case 3:s=g
 r=J.N(s)
 if(!r.h(s,"success")){r=r.h(s,"message")
@@ -1099,7 +1099,7 @@ t.fK(r,"La operaci\xf3n salio exitosa")
 v=!0
 x=1
 break}case 1:return A.m(v,w)}})
-return A.n($async$lG,w)},
+return A.n($async$lt,w)},
 K3(d){return this.bIw(d)},
 bIw(d){var x=0,w=A.o(y.H),v=this,u,t,s,r,q
 var $async$K3=A.k(function(e,f){if(e===1)return A.l(f,w)
@@ -1662,4 +1662,4 @@ D.p5=new C.aPm(0,"onListData")
 D.yU=new C.aPm(1,"onRequestData")})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"dqk","cWy",()=>A.hA(B.dT,1.5))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"WxbKB7yMNPZfH7L5tfnbznwBt2w=");
+a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"1oGfa2YWfVZeZTchIvPhsg142Jo=");

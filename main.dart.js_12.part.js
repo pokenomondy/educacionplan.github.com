@@ -206,29 +206,29 @@ t=d?C.b.eC(u,new A.bxS()):C.b.eC(u,new A.bxT())
 s=B.b([573161585420,v.Q.c],y.t)
 r=B.b([v.Q.b],y.s)
 x=4
-return B.h(v.lG(d,e),$async$CA)
+return B.h(v.lt(d,e),$async$CA)
 case 4:x=g?2:3
 break
 case 2:x=!d?5:6
 break
 case 5:x=7
-return B.h(v.lG(!0,"expulsado"),$async$CA)
+return B.h(v.lt(!0,"expulsado"),$async$CA)
 case 7:x=8
-return B.h(v.lG(!0,"archivado"),$async$CA)
+return B.h(v.lt(!0,"archivado"),$async$CA)
 case 8:case 6:x=9
 return B.h(new B.xk(B.c0()).v_(s,t.e,r),$async$CA)
 case 9:case 3:return B.m(null,w)}})
 return B.n($async$CA,w)},
-lG(d,e){return this.bHu(d,e)},
+lt(d,e){return this.bHu(d,e)},
 bHu(d,e){var x=0,w=B.o(y.y),v,u=this,t,s,r
-var $async$lG=B.k(function(f,g){if(f===1)return B.l(g,w)
+var $async$lt=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:r=u.c
 r.toString
 t=new B.de(r)
 r=new B.et().kh(u.Q.R8).h(0,"baseData")
 r.toString
 x=3
-return B.h(B.kA().M0(e,d,u.Q.r,r),$async$lG)
+return B.h(B.kA().M0(e,d,u.Q.r,r),$async$lt)
 case 3:s=g
 r=J.N(s)
 if(!r.h(s,"success")){r=r.h(s,"message")
@@ -242,7 +242,7 @@ t.fK(r,"La operaci\xf3n salio exitosa")
 v=!0
 x=1
 break}case 1:return B.m(v,w)}})
-return B.n($async$lG,w)},
+return B.n($async$lt,w)},
 c1Y(){var x,w,v,u=this,t=u.c
 t.toString
 x=new B.de(t)
@@ -433,37 +433,37 @@ A.bxX.prototype={
 $1(d){return d.a},
 $S:546}
 A.bxY.prototype={
-$1(d){this.a.lG(d,"nombre completo")},
+$1(d){this.a.lt(d,"nombre completo")},
 $S:7}
 A.by4.prototype={
-$1(d){this.a.lG(d,"numero whatsapp")},
+$1(d){this.a.lt(d,"numero whatsapp")},
 $S:7}
 A.by5.prototype={
-$1(d){this.a.lG(d,"paisOrigen")},
+$1(d){this.a.lt(d,"paisOrigen")},
 $S:7}
 A.by6.prototype={
-$1(d){this.a.lG(d,"identificacionTutor")},
+$1(d){this.a.lt(d,"identificacionTutor")},
 $S:7}
 A.by7.prototype={
-$1(d){this.a.lG(d,"ciudadOrigen")},
+$1(d){this.a.lt(d,"ciudadOrigen")},
 $S:7}
 A.by8.prototype={
-$1(d){this.a.lG(d,"carrera")},
+$1(d){this.a.lt(d,"carrera")},
 $S:7}
 A.by9.prototype={
 $1(d){},
 $S:7}
 A.bya.prototype={
-$1(d){this.a.lG(d,"informacionTutor")},
+$1(d){this.a.lt(d,"informacionTutor")},
 $S:7}
 A.byb.prototype={
-$1(d){this.a.lG(d,"tutorVerificado")},
+$1(d){this.a.lt(d,"tutorVerificado")},
 $S:33}
 A.bxZ.prototype={
-$1(d){this.a.lG(d,"activo")},
+$1(d){this.a.lt(d,"activo")},
 $S:33}
 A.by_.prototype={
-$1(d){this.a.lG(d,"expulsado")},
+$1(d){this.a.lt(d,"expulsado")},
 $S:33}
 A.by0.prototype={
 $1(d){return new B.cg(d,d.a,null,y.u)},
@@ -491,14 +491,17 @@ return B.m(null,w)}})
 return B.n($async$$0,w)},
 $S:3}
 A.byd.prototype={
-$0(){var x=0,w=B.o(y.H),v=this,u,t
+$0(){var x=0,w=B.o(y.H),v=this,u,t,s
 var $async$$0=B.k(function(d,e){if(d===1)return B.l(e,w)
-while(true)switch(x){case 0:u=new B.ac(Date.now(),0,!1).j9(12096e8)
-t=v.a
-t.CA(!0,"prospectoAprobado")
+while(true)switch(x){case 0:u=new B.ac(Date.now(),0,!1)
+t=u.j9(12096e8)
+s=v.a
+s.CA(!0,"prospectoAprobado")
 x=2
-return B.h(t.lG("Plazo hasta "+B.bQ("dd/MM",null).aZ(u),"informacionTutor"),$async$$0)
-case 2:return B.m(null,w)}})
+return B.h(s.lt("Plazo hasta "+B.bQ("dd/MM",null).aZ(t),"informacionTutor"),$async$$0)
+case 2:x=3
+return B.h(s.lt(u,"prospectoAprobadoFecha"),$async$$0)
+case 3:return B.m(null,w)}})
 return B.n($async$$0,w)},
 $S:3}
 A.bye.prototype={
@@ -748,4 +751,4 @@ D.aWy=new B.aY("Agregar materias",null,null,null,null,null,null,null,null,null,n
 D.aWC=new B.aY("El tutor no fue aprobado",null,null,null,null,null,null,null,null,null,null,null)
 D.aYx=B.bM("I")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"N+YCsyZL0hQ8iqWdKMAHIWa3iPs=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"fl29BtAUsoJpaAfmIfQMhCqfM5o=");
