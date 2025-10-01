@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_11",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-d_u(){return new B.AV(null)},
+d_v(){return new B.AV(null)},
 AV:function AV(d){this.a=d},
 aj6:function aj6(d){var _=this
 _.e=_.d=$
@@ -148,7 +148,7 @@ t=A.b3(20)
 s=p.a
 r=s.c
 s=s.d
-return A.a5(q,A.eI(A.a3(A.b([A.qU(25,p.r.a,"Cuenta de cobro"),A.hT(q,new B.bvU(p,u,w,x),u.length,q,q,q,C.c8,q,!1,!0)],y.p),C.f,q,C.i,C.h,C.l),q,q,q,q,q,C.y),C.k,q,q,new A.aw(v,q,q,t,q,q,q,C.r),q,s,q,C.AA,C.AB,q,q,r*0.92)},
+return A.a5(q,A.eI(A.a3(A.b([A.qU(25,p.r.a,"Cuenta de cobro"),A.hT(q,new B.bvU(p,u,w,x),u.length,q,q,q,C.c8,q,!1,!0)],y.p),C.f,q,C.i,C.h,C.l),q,q,q,q,q,C.y),C.k,q,q,new A.aw(v,q,q,t,q,q,q,C.r),q,s,q,C.AB,C.AC,q,q,r*0.92)},
 $C:"$5",
 $R:5,
 $S:551}
@@ -177,7 +177,7 @@ t=A.b3(20)
 s=p.a
 r=s.c
 s=s.d
-return A.a5(q,A.eI(A.a3(A.b([A.qU(25,p.r.a,"Cuenta de cobro"),A.hT(q,new B.bHd(p,u,w,x),u.length,q,q,q,C.c8,q,!1,!0)],y.p),C.f,q,C.i,C.h,C.l),q,q,q,q,q,C.y),C.k,q,q,new A.aw(v,q,q,t,q,q,q,C.r),q,s,q,C.AA,C.AB,q,q,r*0.92)},
+return A.a5(q,A.eI(A.a3(A.b([A.qU(25,p.r.a,"Cuenta de cobro"),A.hT(q,new B.bHd(p,u,w,x),u.length,q,q,q,C.c8,q,!1,!0)],y.p),C.f,q,C.i,C.h,C.l),q,q,q,q,q,C.y),C.k,q,q,new A.aw(v,q,q,t,q,q,q,C.r),q,s,q,C.AB,C.AC,q,q,r*0.92)},
 $C:"$5",
 $R:5,
 $S:551}
@@ -197,6 +197,6 @@ x(A.rg,[B.b4j,B.b4h,B.b4i,B.b4k,B.bvT,B.bvU,B.bHc,B.bHd])
 x(A.nd,[B.bvV,B.bvS,B.bHe,B.bHb])})()
 A.A9(b.typeUniverse,JSON.parse('{"a1x":{"P":[],"d":[]},"a3R":{"P":[],"d":[]},"AV":{"P":[],"d":[]},"aj6":{"R":["AV"]},"awu":{"R":["a1x"]},"azb":{"R":["a3R"]}}'))
 var y=(function rtii(){var x=A.au
-return{_:x("h_"),C:x("fz"),c:x("rl"),F:x("y<j6>"),q:x("y<fj>"),p:x("y<d>"),m:x("y<jY>"),k:x("v<mE>"),y:x("v<fj>"),J:x("v<jY>"),N:x("c"),H:x("~")}})()};
+return{_:x("h_"),C:x("fz"),c:x("rl"),F:x("y<j6>"),q:x("y<fj>"),p:x("y<d>"),m:x("y<jY>"),k:x("v<mF>"),y:x("v<fj>"),J:x("v<jY>"),N:x("c"),H:x("~")}})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"RdWItLmjXlQqi7cKIaRnija8qAQ=");
+a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"X6uu4sraes6ftJawhKOWk3TgIiY=");

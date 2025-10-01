@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_12",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,A={
-d0s(){return new A.B6(null)},
+d0t(){return new A.B6(null)},
 cLu(d,e){return new A.a3T(e,null)},
 B6:function B6(d){this.a=d},
 am0:function am0(){this.c=this.a=this.d=null},
@@ -177,7 +177,7 @@ x.ch=x.a.c},
 n(){this.aC()},
 a4s(){var x=0,w=B.o(y.H),v=this,u
 var $async$a4s=B.k(function(d,e){if(d===1)return B.l(e,w)
-while(true)switch(x){case 0:u=new B.du(B.cV())
+while(true)switch(x){case 0:u=new B.du(B.cR())
 u.cU()
 x=2
 return B.h(u.yi(),$async$a4s)
@@ -316,26 +316,26 @@ u.fq(0,s,"Error")}else{s=s.h(t,"message")
 B.av()
 u.fK(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
 return B.n($async$Ny,w)},
-o5(d,e){return this.bW1(d,e)},
+o4(d,e){return this.bW1(d,e)},
 bW1(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
-var $async$o5=B.k(function(f,g){if(f===1)return B.l(g,w)
+var $async$o4=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=B.ct(new B.et().kh(v.f.R8),y.f)
 r=J
 x=2
-return B.h(u,$async$o5)
+return B.h(u,$async$o4)
 case 2:u=r.S(g,"baseData")
 u.toString
 B.aE("el bool es "+d)
 x=3
-return B.h(B.kA().alv(e,d,v.f.r,u),$async$o5)
+return B.h(B.kA().alv(e,d,v.f.r,u),$async$o4)
 case 3:t=g
 u=J.N(t)
 if(!u.h(t,"success")){u=u.h(t,"message")
 B.av()
 new B.de(s).fq(0,u,"Error")}return B.m(null,w)}})
-return B.n($async$o5,w)}}
+return B.n($async$o4,w)}}
 var z=a.updateTypes([])
 A.b7H.prototype={
 $2(d,e){var x=null,w=y.p,v=B.b([new A.OZ(d*0.35,e,x)],w),u=this.a,t=u.d.w
@@ -370,7 +370,7 @@ a0.cy=B.A(x,!0,x.$ti.i("Z.E"))
 x=a0.a.c
 a1=a0.z
 w=a1.a
-v=B.ahW(w,d,B.GA(a0.Q.p4,d,C.cC,d,d,d,d),100)
+v=B.ahW(w,d,B.GA(a0.Q.p4,d,C.cD,d,d,d,d),100)
 u=y.p
 w=B.af(B.b([new B.W(D.akX,B.C("Informacion personal",d,d,d,d,d,B.a8(d,d,w,d,d,d,d,d,"Poppins",d,d,19,d,d,C.w,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),d)],u),C.f,C.i,C.h,d)
 t=a0.Q
@@ -397,17 +397,17 @@ p=B.aH()
 i=B.c2()
 h=B.aH()
 g=a0.Q.rx
-g=new B.hF(p,new B.eS(i,h)).of(a0.ch,new A.byb(a0),"Aprobar perfil",g)
+g=new B.hF(p,new B.eS(i,h)).oe(a0.ch,new A.byb(a0),"Aprobar perfil",g)
 h=B.aH()
 i=B.c2()
 p=B.aH()
 f=a0.Q.at
-f=new B.hF(h,new B.eS(i,p)).of(a0.ch,new A.bxZ(a0),"Notificaciones ?",f)
+f=new B.hF(h,new B.eS(i,p)).oe(a0.ch,new A.bxZ(a0),"Notificaciones ?",f)
 p=B.aH()
 i=B.c2()
 h=B.aH()
 e=a0.Q.ax
-e=new B.hF(p,new B.eS(i,h)).of(a0.ch,new A.by_(a0),"Explusado ?",e)
+e=new B.hF(p,new B.eS(i,h)).oe(a0.ch,new A.by_(a0),"Explusado ?",e)
 h=B.aH()
 i=a0.Q
 i.toString
@@ -639,46 +639,46 @@ l=m.a
 w=l.c
 l=l.d
 v=m.e
-u=v.of(w,new A.buz(m),"Permiso Solicitudes",x.a)
+u=v.oe(w,new A.buz(m),"Permiso Solicitudes",x.a)
 t=B.C("--- PERMISOS TUTORES ---",n,n,n,n,n,n,n,n,n)
 s=x.b
-s=v.of(m.a.c,new A.buA(m),"Permiso tutores",s)
+s=v.oe(m.a.c,new A.buA(m),"Permiso tutores",s)
 r=B.C("--- PERMISOS ESTADISTICAS ---",n,n,n,n,n,n,n,n,n)
 q=x.c
 p=y.p
-r=B.b([D.aWe,u,t,s,r,v.of(m.a.c,new A.buB(m),"Permiso estadisticas",q)],p)
+r=B.b([D.aWe,u,t,s,r,v.oe(m.a.c,new A.buB(m),"Permiso estadisticas",q)],p)
 if(q){u=$.nQ()
 t=x.d
-t=v.of(m.a.c,new A.buH(m),"Permiso Calendario",t)
+t=v.oe(m.a.c,new A.buH(m),"Permiso Calendario",t)
 s=x.e
-s=v.of(m.a.c,new A.buI(m),"Permiso Estadisticas",s)
+s=v.oe(m.a.c,new A.buI(m),"Permiso Estadisticas",s)
 q=x.f
-q=v.of(m.a.c,new A.buJ(m),"Permiso Marketing",q)
+q=v.oe(m.a.c,new A.buJ(m),"Permiso Marketing",q)
 o=x.x
-r.push(B.a5(n,B.a3(B.b([t,s,q,v.of(m.a.c,new A.buK(m),"Permiso Referidos",o)],p),C.f,n,C.i,C.h,C.l),C.k,u,n,n,n,n,n,n,n,n,n,n))}r.push(B.C("--- PERMISOS CONTABILIDAD ---",n,n,n,n,n,n,n,n,n))
+r.push(B.a5(n,B.a3(B.b([t,s,q,v.oe(m.a.c,new A.buK(m),"Permiso Referidos",o)],p),C.f,n,C.i,C.h,C.l),C.k,u,n,n,n,n,n,n,n,n,n,n))}r.push(B.C("--- PERMISOS CONTABILIDAD ---",n,n,n,n,n,n,n,n,n))
 u=x.y
-r.push(v.of(m.a.c,new A.buL(m),"Permiso contabilidad",u))
+r.push(v.oe(m.a.c,new A.buL(m),"Permiso contabilidad",u))
 r.push(B.C("--- PERMISOS CONFIGURACION ---",n,n,n,n,n,n,n,n,n))
 u=x.z
-r.push(v.of(m.a.c,new A.buM(m),"Permiso configuracion",u))
+r.push(v.oe(m.a.c,new A.buM(m),"Permiso configuracion",u))
 r.push(B.C("--- PERMISOS WHATCHAT ---",n,n,n,n,n,n,n,n,n))
 u=x.Q
-r.push(v.of(m.a.c,new A.buN(m),"Permiso WhatChat",u))
+r.push(v.oe(m.a.c,new A.buN(m),"Permiso WhatChat",u))
 r.push(B.C("--- PERMISOS CUENTAS DE COBRO ---",n,n,n,n,n,n,n,n,n))
 u=x.as
-r.push(v.of(m.a.c,new A.buO(m),"Permiso cuentas de cobro",u))
+r.push(v.oe(m.a.c,new A.buO(m),"Permiso cuentas de cobro",u))
 r.push(B.C("--- PERMISOS NUEVOS TUTORES ---",n,n,n,n,n,n,n,n,n))
 u=x.ax
-r.push(v.of(m.a.c,new A.buC(m),"Permiso de nuevos tutores",u))
+r.push(v.oe(m.a.c,new A.buC(m),"Permiso de nuevos tutores",u))
 r.push(B.C("--- PERMISOS TESIS ---",n,n,n,n,n,n,n,n,n))
 u=x.at
-r.push(v.of(m.a.c,new A.buD(m),"Permiso de tesis",u))
+r.push(v.oe(m.a.c,new A.buD(m),"Permiso de tesis",u))
 r.push(B.C("--- PERMISOS CLIENTES ---",n,n,n,n,n,n,n,n,n))
 u=x.ch
-r.push(v.of(m.a.c,new A.buE(m),"Permiso de Clientes",u))
+r.push(v.oe(m.a.c,new A.buE(m),"Permiso de Clientes",u))
 r.push(B.C("--- PERMISOS SISTEMA DISCIPLINARIO ---",n,n,n,n,n,n,n,n,n))
 u=x.ay
-r.push(v.of(m.a.c,new A.buF(m),"Permiso de sistema disciplinario",u))
+r.push(v.oe(m.a.c,new A.buF(m),"Permiso de sistema disciplinario",u))
 u=m.a.c
 r.push(B.d3(m.r,n,!0,n,n,new A.buG(m),n,"Asignar Rol","Dale editar y selecciona el rol",u))
 return B.dl(C.L,C.f,C.j,r,l,0,5,!0,!0,0,w)},
@@ -686,49 +686,49 @@ $C:"$3",
 $R:3,
 $S:555}
 A.buz.prototype={
-$1(d){this.a.o5(d,"permiso_solicitudes")},
+$1(d){this.a.o4(d,"permiso_solicitudes")},
 $S:33}
 A.buA.prototype={
-$1(d){this.a.o5(d,"permiso_tutores")},
+$1(d){this.a.o4(d,"permiso_tutores")},
 $S:33}
 A.buB.prototype={
-$1(d){this.a.o5(d,"permiso_estadisticas")},
+$1(d){this.a.o4(d,"permiso_estadisticas")},
 $S:33}
 A.buH.prototype={
-$1(d){this.a.o5(d,"permiso_estadisticas_calendario")},
+$1(d){this.a.o4(d,"permiso_estadisticas_calendario")},
 $S:33}
 A.buI.prototype={
-$1(d){this.a.o5(d,"permiso_estadisticas_estadisticas")},
+$1(d){this.a.o4(d,"permiso_estadisticas_estadisticas")},
 $S:33}
 A.buJ.prototype={
-$1(d){this.a.o5(d,"permiso_estadisticas_marketing")},
+$1(d){this.a.o4(d,"permiso_estadisticas_marketing")},
 $S:33}
 A.buK.prototype={
-$1(d){this.a.o5(d,"permisoEstadisticasReferidos")},
+$1(d){this.a.o4(d,"permisoEstadisticasReferidos")},
 $S:33}
 A.buL.prototype={
-$1(d){this.a.o5(d,"permiso_contabilidad_central")},
+$1(d){this.a.o4(d,"permiso_contabilidad_central")},
 $S:33}
 A.buM.prototype={
-$1(d){this.a.o5(d,"permiso_configuracionGeneral")},
+$1(d){this.a.o4(d,"permiso_configuracionGeneral")},
 $S:33}
 A.buN.prototype={
-$1(d){this.a.o5(d,"permisoWhatChat")},
+$1(d){this.a.o4(d,"permisoWhatChat")},
 $S:33}
 A.buO.prototype={
-$1(d){this.a.o5(d,"permisoCuentaCobro")},
+$1(d){this.a.o4(d,"permisoCuentaCobro")},
 $S:33}
 A.buC.prototype={
-$1(d){this.a.o5(d,"permisoNuevosTutores")},
+$1(d){this.a.o4(d,"permisoNuevosTutores")},
 $S:33}
 A.buD.prototype={
-$1(d){this.a.o5(d,"permisoTesis")},
+$1(d){this.a.o4(d,"permisoTesis")},
 $S:33}
 A.buE.prototype={
-$1(d){this.a.o5(d,"permisoClientes")},
+$1(d){this.a.o4(d,"permisoClientes")},
 $S:33}
 A.buF.prototype={
-$1(d){this.a.o5(d,"permisoSaciones")},
+$1(d){this.a.o4(d,"permisoSaciones")},
 $S:33}
 A.buG.prototype={
 $1(d){this.a.Ny(d)},
@@ -751,4 +751,4 @@ D.aWy=new B.aY("Agregar materias",null,null,null,null,null,null,null,null,null,n
 D.aWC=new B.aY("El tutor no fue aprobado",null,null,null,null,null,null,null,null,null,null,null)
 D.aYx=B.bM("I")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"fl29BtAUsoJpaAfmIfQMhCqfM5o=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"c44yz5vpoA98cP/8GfXkFdrvtME=");
