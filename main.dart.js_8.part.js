@@ -441,7 +441,7 @@ r.toString
 u=t.y.oJ(r)
 t.w.hq(0,u)}t.aj()},
 n(){var x,w=this
-B.aE("dispose tutores")
+B.aD("dispose tutores")
 x=w.f
 x===$&&B.a()
 if((x.b&4)===0)x.aI(0)
@@ -514,7 +514,7 @@ w=B.bP(h,!1,x)
 h=j.c
 h.toString
 v=B.bP(h,!1,y._).a.a
-B.aE("la nombre empresa es "+v)
+B.aD("la nombre empresa es "+v)
 u=w.c.length
 t=w.d.length
 s=w.e.length
@@ -1105,7 +1105,7 @@ A.ckZ.prototype={
 $0(){var x=this.a,w=B.bP(x,!1,y.l),v=this.b
 w.y=v
 w.a9()
-B.aE("seleccionando tutor "+v.R8)
+B.aD("seleccionando tutor "+v.R8)
 B.np(x).tb(0,"/home/detalles_tutor",null)},
 $S:0}
 A.cl_.prototype={
@@ -1398,4 +1398,4 @@ D.aWA=new B.aY("Estadisticas de materia",null,null,null,null,null,null,null,null
 D.aWD=new B.aY("Tutores",null,null,null,null,null,null,null,null,null,null,null)
 D.aWG=new B.aY("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"W1GjBAr5DwVyFG+vooqMDzIkNx4=");
+a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"CL6bwXqRibJdGpcXU0tPOgCQP4E=");

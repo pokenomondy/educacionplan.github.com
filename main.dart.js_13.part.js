@@ -788,7 +788,7 @@ K_(d,e,f){return this.bId(d,e,f)},
 bId(d,e,f){var x=0,w=A.o(y.y),v,u,t,s,r,q,p,o
 var $async$K_=A.k(function(g,h){if(g===1)return A.l(h,w)
 while(true)switch(x){case 0:p=new A.de(e)
-A.aE("a a\xf1adir hoja de vida")
+A.aD("a a\xf1adir hoja de vida")
 x=f==null?3:5
 break
 case 3:A.av()
@@ -1662,4 +1662,4 @@ D.p5=new C.aPm(0,"onListData")
 D.yV=new C.aPm(1,"onRequestData")})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"dql","cWy",()=>A.hA(B.dT,1.5))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"AE3YNebnl0mrUNv3NyZbFcgIQAM=");
+a.eventLog.push({p:"main.dart.js_13",e:"endPart",h:b})})($__dart_deferred_initializers__,"OTKAJ8B+pTjId7orhHZ78c96khA=");

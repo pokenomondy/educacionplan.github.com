@@ -265,14 +265,14 @@ x=6
 return B.h($.u0.dG().AQ(!1,C.amO),$async$nf)
 case 6:s=f
 if(s!=null&&J.fa(s.a))d.$1(new A.bxR(t,s))
-else B.aE("No se seleccion\xf3 ning\xfan archivo.")
+else B.aD("No se seleccion\xf3 ning\xfan archivo.")
 v=1
 x=5
 break
 case 3:v=2
 p=u
 r=B.ae(p)
-B.aE("Error al seleccionar el archivo: "+B.j(r))
+B.aD("Error al seleccionar el archivo: "+B.j(r))
 x=5
 break
 case 2:x=1
@@ -290,7 +290,7 @@ x.aj()
 if($.X==null)B.fl()
 $.X.toString
 x.d.jo().bS(0,new A.bH7(x),y.P)},
-n(){B.aE("dispose configuracion TUTOR")
+n(){B.aD("dispose configuracion TUTOR")
 this.aC()},
 B(d){return B.vD(new A.bH5(this),y.l,y.R,y.L)},
 bHL(d){var x=this,w=null,v=x.cx,u=B.b([B.C("Subir hoja de vida (subir en formato pdf)",w,w,w,w,w,B.a8(w,w,C.v,w,w,w,w,w,"Poppins",w,w,15,w,w,C.ab,w,w,!0,w,w,w,w,w,w,w,w),w,w,w),C.kv],y.p),t=x.dy
@@ -345,14 +345,14 @@ x=6
 return B.h($.u0.dG().Mj(!1,B.b(["pdf"],y.s),C.AI),$async$kx)
 case 6:s=e
 if(s!=null&&J.fa(s.a))t.E(new A.bH9(t,s))
-else B.aE("No se seleccion\xf3 ning\xfan archivo.")
+else B.aD("No se seleccion\xf3 ning\xfan archivo.")
 v=1
 x=5
 break
 case 3:v=2
 p=u
 r=B.ae(p)
-B.aE("Error al seleccionar el archivo: "+B.j(r))
+B.aD("Error al seleccionar el archivo: "+B.j(r))
 x=5
 break
 case 2:x=1
@@ -566,17 +566,17 @@ $R:5,
 $S:1466}
 A.bGT.prototype={
 $1(d){var x
-B.aE("materias selecicoandas son "+J.an(d))
+B.aD("materias selecicoandas son "+J.an(d))
 x=B.bi(d,!0,y.N)
 this.a.at=x
-B.aE("las materias tring son "+x.length)},
+B.aD("las materias tring son "+x.length)},
 $S:306}
 A.bGU.prototype={
 $0(){this.a.QZ(this.b)},
 $S:0}
 A.bGY.prototype={
 $1(d){var x
-B.aE("Servicios actualizados: "+B.j(d))
+B.aD("Servicios actualizados: "+B.j(d))
 x=this.a
 x.E(new A.bGS(x,d))},
 $S:306}
@@ -589,7 +589,7 @@ x.fx.QC(this.b,x.z,x.cy)},
 $S:0}
 A.bH_.prototype={
 $1(d){var x
-B.aE("Servicios actualizados: "+B.j(d))
+B.aD("Servicios actualizados: "+B.j(d))
 x=this.a
 x.E(new A.bGR(x,d))},
 $S:548}
@@ -602,7 +602,7 @@ x.fx.W4(this.b,x.ch,x.z)},
 $S:0}
 A.bH1.prototype={
 $1(d){var x
-B.aE("Experienca laboral para actualizar: "+d.m(0))
+B.aD("Experienca laboral para actualizar: "+d.m(0))
 x=this.a
 x.E(new A.bGQ(x,d))},
 $S:199}
@@ -671,4 +671,4 @@ E.Iz=new B.a4(20,8,20,8)
 E.apC=new B.dr(H.KJ,100,null,null,null)
 E.aq1=new B.dr(C.KG,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"1tYt/XI6NFDYyqtB2dFc9jXI4kY=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"W+c2cszVRL+8Sfnj72YgOJ3wyPw=");
