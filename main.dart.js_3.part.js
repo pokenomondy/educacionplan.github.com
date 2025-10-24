@@ -284,11 +284,11 @@ B.Le(D.ap6,D.aVH,new B.crn())
 if(f<24){x=this.w
 w=x.a
 v=y.p
-w=A.ai(A.b([A.jW(w,new B.cro(),4,C.k,D.anr,30,3),A.jW(w,new B.crp(),4,C.k,D.ao2,30,3),A.jW(w,new B.crq(),4,C.k,D.anZ,30,3)],v),C.f,C.i,C.h,s)
+w=A.ai(A.b([A.jV(w,new B.cro(),4,C.k,D.anr,30,3),A.jV(w,new B.crp(),4,C.k,D.ao2,30,3),A.jV(w,new B.crq(),4,C.k,D.anZ,30,3)],v),C.f,C.i,C.h,s)
 u=A.nt(!0,C.b6,!1,C.B,A.nI(),this.f,s,s,C.by,1,new A.aE(C.d5,s,s,A.bj(20),s,s,s,C.t),C.w,!0,s,!0,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,!1,"\u2022",s,s,s,s,s,C.dn,s,s,s,C.bh,!1,s,!0,s,C.bF,s,s,C.bD,C.bB,s,s,s,s,s,s,s,C.bh,C.C,s,C.c5,s,s,s)
 t=A.l1(A.F("Enviar mensaje",s,s,s,s,s,s,s,s),new B.crr(this,e))
 x=x.a
-return A.a5(A.b([w,A.ai(A.b([new A.aC(d*2/3,s,u,s),t,A.jW(x,new B.cri(),4,C.k,D.anW,30,3),A.jW(x,new B.crj(),4,C.k,D.anX,30,3)],v),C.f,C.i,C.h,s)],v),C.f,s,C.i,C.h,C.l)}else return A.F("Han pasado 24 horas, no es posible enviar mensaje",s,s,s,s,s,s,s,s)},
+return A.a5(A.b([w,A.ai(A.b([new A.aC(d*2/3,s,u,s),t,A.jV(x,new B.cri(),4,C.k,D.anW,30,3),A.jV(x,new B.crj(),4,C.k,D.anX,30,3)],v),C.f,C.i,C.h,s)],v),C.f,s,C.i,C.h,C.l)}else return A.F("Han pasado 24 horas, no es posible enviar mensaje",s,s,s,s,s,s,s,s)},
 X1(d,e){return this.aYY(d,e)},
 aYY(d,e){var x=0,w=A.o(y.H),v=this,u,t
 var $async$X1=A.k(function(f,g){if(f===1)return A.l(g,w)
@@ -388,7 +388,7 @@ b0.aa()}}x=22
 return A.ag(d.fe(new B.cqU(l),a2),$async$qZ,w)
 case 22:case 17:x=23
 v=[1,11]
-return A.ag(A.jO(l),$async$qZ,w)
+return A.ag(A.jN(l),$async$qZ,w)
 case 23:x=13
 break
 case 14:s.push(12)
@@ -486,7 +486,7 @@ J.hr(g,l)
 q.ah0(g,b2)
 case 17:x=21
 v=[1,11]
-return A.ag(A.jO(l),$async$uc,w)
+return A.ag(A.jN(l),$async$uc,w)
 case 21:x=13
 break
 case 14:s.push(12)
@@ -602,7 +602,7 @@ Y(){return new B.aqP()}}
 B.aqP.prototype={
 n(){A.aQ("dispose wachat")
 this.aL()},
-C(d){return A.jY(new B.bjV(this),y._)}}
+C(d){return A.jX(new B.bjV(this),y._)}}
 B.aBv.prototype={}
 B.a5M.prototype={
 Y(){var x=y.Y
@@ -611,7 +611,7 @@ B.aBU.prototype={
 ad(){this.ao()},
 n(){A.aQ("dispose wachat - plantillas")
 this.aL()},
-C(d){return A.jY(new B.bW1(this,A.aK(d,null,y.w).w.a.b),y.b)},
+C(d){return A.jX(new B.bW1(this,A.aK(d,null,y.w).w.a.b),y.b)},
 aLm(d){var x,w,v="type",u="format",t="text",s=null,r=J.O(d)
 A.aQ("tenemos "+A.j(r.h(d,v))+" - "+A.j(d))
 if(J.f(r.h(d,v),"HEADER"))if(J.f(r.h(d,u),"TEXT"))return A.F(r.h(d,t),s,s,s,s,A.aa(s,s,C.v,s,s,s,s,s,s,s,s,16,s,s,C.x,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)
@@ -1232,4 +1232,4 @@ D.aVS=new A.b9("Sin mensajes.",null,null,null,null,null,null,null,null,null,null
 x($,"dg_","cPb",()=>A.TC(D.aDY))
 x($,"dfY","cPa",()=>A.TC(D.aDZ))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_3",e:"endPart",h:b})})($__dart_deferred_initializers__,"PlrkTrc3Y+73yooPUoWDU5g05gc=");
+a.eventLog.push({p:"main.dart.js_3",e:"endPart",h:b})})($__dart_deferred_initializers__,"8TV+kZsA1KDYsJUX3lYGHx6U9eA=");

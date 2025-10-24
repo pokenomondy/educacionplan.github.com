@@ -503,7 +503,7 @@ x.ay.kx().c_(0,new A.chJ(x),y.P)
 x.ch=B.aa(w,w,C.ay,w,w,w,w,w,"Poppins",w,w,14,w,w,C.af,w,w,!0,w,w,w,w,w,w,w,w)
 x.CW=B.aa(w,w,C.ay,w,w,w,w,w,"Poppins",w,w,15,w,w,C.x,w,w,!0,w,w,w,w,w,w,w,w)},
 C(d){var x=this.cx
-if(x===$?this.cx=!1:x)return B.jY(new A.chz(this),y.l)
+if(x===$?this.cx=!1:x)return B.jX(new A.chz(this),y.l)
 else return C.cN},
 nh(d,e){var x=null,w=this.gX9(),v=this.CW
 return new B.a_(D.Ij,B.ai(B.b([B.cp(B.F(d,x,x,x,x,v===$?this.CW=C.cE:v,C.C,x,x),1),B.cp(B.F(e,x,x,x,x,w,C.eJ,x,x),1)],y.p),C.f,C.a8,C.h,x),x)},
@@ -1266,7 +1266,7 @@ if(t)s="Excelente"
 else s=v>=3?"Intermedio":"Regular"
 if(t)v=C.hm
 else v=v>=3?l.a:C.bE
-m=B.cp(B.a5(B.b([k,new B.a_(D.Ir,B.ai(B.b([u,B.F(s,r,r,r,r,B.aa(r,r,v,r,r,r,r,r,q,r,r,14,r,r,C.x,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],w),C.f,C.a8,C.h,r),r),p.nh("Entrega tarde: ",C.d.bx(p.ch.anW(m),1)),p.nh("Ganancias generadas: ",C.d.bx(p.ch.HT(m),1)),p.nh("Notas obtenidas: ",C.d.bx(p.ch.anV(m),1)),new B.a_(C.d7,B.ai(B.b([B.jW(l.a,new A.bZE(p,d,o),5,C.k,C.Kt,25,3)],w),C.f,C.i,C.h,r),r)],w),C.f,r,C.i,C.h,C.l),1)
+m=B.cp(B.a5(B.b([k,new B.a_(D.Ir,B.ai(B.b([u,B.F(s,r,r,r,r,B.aa(r,r,v,r,r,r,r,r,q,r,r,14,r,r,C.x,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],w),C.f,C.a8,C.h,r),r),p.nh("Entrega tarde: ",C.d.bx(p.ch.anW(m),1)),p.nh("Ganancias generadas: ",C.d.bx(p.ch.HT(m),1)),p.nh("Notas obtenidas: ",C.d.bx(p.ch.anV(m),1)),new B.a_(C.d7,B.ai(B.b([B.jV(l.a,new A.bZE(p,d,o),5,C.k,C.Kt,25,3)],w),C.f,C.i,C.h,r),r)],w),C.f,r,C.i,C.h,C.l),1)
 p=p.ch.V_(o)
 k=p/5
 p=C.d.m(p).length<2?B.j(p)+".0":C.d.bx(p,1)
@@ -1398,4 +1398,4 @@ D.aVw=new B.b9("Tutores Expulsados",null,null,null,null,null,null,null,null,null
 D.aVJ=new B.b9("Tutores No Verificados",null,null,null,null,null,null,null,null,null,null)
 D.aVN=new B.b9("Busqueda",null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"Vyg4DnLdJpMW7U8vxADFiAK8dMg=");
+a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"lXKUlwz8IEHZ72ki+nAeZr3SdFM=");

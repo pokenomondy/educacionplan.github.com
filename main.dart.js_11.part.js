@@ -272,7 +272,7 @@ if($.X==null)B.hp()
 $.X.toString
 x.d.kx().c_(0,new A.bFq(x),y.P)},
 C(d){var x=null,w=this.e
-if(w===$?this.e=!1:w)return B.eZ(B.a5(B.b([B.jY(new A.bFo(this),y.l)],y.p),C.f,x,C.i,C.h,C.l),x,x,x,x,x,C.z)
+if(w===$?this.e=!1:w)return B.eZ(B.a5(B.b([B.jX(new A.bFo(this),y.l)],y.p),C.f,x,C.i,C.h,C.l),x,x,x,x,x,C.z)
 else return C.cN}}
 A.a4M.prototype={
 Y(){return new A.aAc(B.aP(),new E.Yz(),B.u(["nombreBanco","","numeroCuenta",0],y.N,y.z))}}
@@ -285,14 +285,14 @@ if($.X==null)B.hp()
 $.X.toString
 x.f.kx().c_(0,new A.bQ4(x),y.P)},
 C(d){var x=this.r
-if(x===$?this.r=!1:x)return B.jY(new A.bQ2(this),y.l)
+if(x===$?this.r=!1:x)return B.jX(new A.bQ2(this),y.l)
 else return C.cN}}
 A.a0F.prototype={
 Y(){return new A.av_(B.aP(),new B.ia(B.aP(),new B.eW(B.cg(),B.aP())),B.b([],y.s))}}
 A.av_.prototype={
 ad(){this.r=B.bg(B.cg().dy,!0,y.N)
 this.ao()},
-C(d){return B.jY(new A.bsU(this),y.l)},
+C(d){return B.jX(new A.bsU(this),y.l)},
 Na(d){return this.aX_(d)},
 aX_(d){var x=0,w=B.o(y.H),v=this,u,t,s,r
 var $async$Na=B.k(function(e,f){if(e===1)return B.l(f,w)
@@ -316,26 +316,26 @@ u.fD(0,s,"Error")}else{s=s.h(t,"message")
 B.aA()
 u.fZ(s,"La operaci\xf3n salio exitosa")}return B.m(null,w)}})
 return B.n($async$Na,w)},
-o0(d,e){return this.bUn(d,e)},
+o_(d,e){return this.bUn(d,e)},
 bUn(d,e){var x=0,w=B.o(y.H),v=this,u,t,s,r
-var $async$o0=B.k(function(f,g){if(f===1)return B.l(g,w)
+var $async$o_=B.k(function(f,g){if(f===1)return B.l(g,w)
 while(true)switch(x){case 0:s=v.c
 s.toString
 u=B.cU(new B.fL().lN(v.f.R8),y.f)
 r=J
 x=2
-return B.h(u,$async$o0)
+return B.h(u,$async$o_)
 case 2:u=r.T(g,"baseData")
 u.toString
 B.aQ("el bool es "+d)
 x=3
-return B.h(B.kp().akH(e,d,v.f.r,u),$async$o0)
+return B.h(B.kp().akH(e,d,v.f.r,u),$async$o_)
 case 3:t=g
 u=J.O(t)
 if(!u.h(t,"success")){u=u.h(t,"message")
 B.aA()
 new B.dr(s).fD(0,u,"Error")}return B.m(null,w)}})
-return B.n($async$o0,w)}}
+return B.n($async$o_,w)}}
 var z=a.updateTypes([])
 A.b65.prototype={
 $2(d,e){var x=null,w=y.p,v=B.b([new A.Ow(d*0.35,e,x)],w),u=this.a,t=u.d.w
@@ -686,49 +686,49 @@ $C:"$3",
 $R:3,
 $S:538}
 A.bsE.prototype={
-$1(d){this.a.o0(d,"permiso_solicitudes")},
+$1(d){this.a.o_(d,"permiso_solicitudes")},
 $S:33}
 A.bsF.prototype={
-$1(d){this.a.o0(d,"permiso_tutores")},
+$1(d){this.a.o_(d,"permiso_tutores")},
 $S:33}
 A.bsG.prototype={
-$1(d){this.a.o0(d,"permiso_estadisticas")},
+$1(d){this.a.o_(d,"permiso_estadisticas")},
 $S:33}
 A.bsM.prototype={
-$1(d){this.a.o0(d,"permiso_estadisticas_calendario")},
+$1(d){this.a.o_(d,"permiso_estadisticas_calendario")},
 $S:33}
 A.bsN.prototype={
-$1(d){this.a.o0(d,"permiso_estadisticas_estadisticas")},
+$1(d){this.a.o_(d,"permiso_estadisticas_estadisticas")},
 $S:33}
 A.bsO.prototype={
-$1(d){this.a.o0(d,"permiso_estadisticas_marketing")},
+$1(d){this.a.o_(d,"permiso_estadisticas_marketing")},
 $S:33}
 A.bsP.prototype={
-$1(d){this.a.o0(d,"permisoEstadisticasReferidos")},
+$1(d){this.a.o_(d,"permisoEstadisticasReferidos")},
 $S:33}
 A.bsQ.prototype={
-$1(d){this.a.o0(d,"permiso_contabilidad_central")},
+$1(d){this.a.o_(d,"permiso_contabilidad_central")},
 $S:33}
 A.bsR.prototype={
-$1(d){this.a.o0(d,"permiso_configuracionGeneral")},
+$1(d){this.a.o_(d,"permiso_configuracionGeneral")},
 $S:33}
 A.bsS.prototype={
-$1(d){this.a.o0(d,"permisoWhatChat")},
+$1(d){this.a.o_(d,"permisoWhatChat")},
 $S:33}
 A.bsT.prototype={
-$1(d){this.a.o0(d,"permisoCuentaCobro")},
+$1(d){this.a.o_(d,"permisoCuentaCobro")},
 $S:33}
 A.bsH.prototype={
-$1(d){this.a.o0(d,"permisoNuevosTutores")},
+$1(d){this.a.o_(d,"permisoNuevosTutores")},
 $S:33}
 A.bsI.prototype={
-$1(d){this.a.o0(d,"permisoTesis")},
+$1(d){this.a.o_(d,"permisoTesis")},
 $S:33}
 A.bsJ.prototype={
-$1(d){this.a.o0(d,"permisoClientes")},
+$1(d){this.a.o_(d,"permisoClientes")},
 $S:33}
 A.bsK.prototype={
-$1(d){this.a.o0(d,"permisoSaciones")},
+$1(d){this.a.o_(d,"permisoSaciones")},
 $S:33}
 A.bsL.prototype={
 $1(d){this.a.Na(d)},
@@ -751,4 +751,4 @@ D.aVA=new B.b9("--- PERMISOS SOLICITUDES ---",null,null,null,null,null,null,null
 D.aVV=new B.b9("Examen no generado o no necesito",null,null,null,null,null,null,null,null,null,null)
 D.aXN=B.bJ("H")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"9ebzFskW+KLoeQp2NyVt3VRutaw=");
+a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"PL8txEZXMWsGQWKSTPgbSlS5AXg=");
